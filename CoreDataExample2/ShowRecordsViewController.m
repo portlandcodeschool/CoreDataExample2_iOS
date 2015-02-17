@@ -61,7 +61,7 @@
     Person *person = [self.allPersons objectAtIndex:indexPath.row];
     
     cell.textLabel.text = person.name;
-    cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ hair, %@ eyes, %i left arms and %i right arms", person.hairColor, person.eyeColor, person.leftArms.count, person.rightArms.count];
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"Age %@, %@ hair, %@ eyes, %i left arms and %i right arms",person.age, person.hairColor, person.eyeColor, person.leftArms.count, person.rightArms.count];
     
     // Configure the cell.
     
@@ -114,9 +114,11 @@
 
             //Reassign the updated array back to our main array used in the tableview
             self.allPersons = array;
-            
+
             // Delete the row from the data source and reloads the table with an animation
             [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+            
+
         }
         
     } 

@@ -49,7 +49,6 @@
         ShowRecordsViewController *showRecordsVC = segue.destinationViewController;
         showRecordsVC.allPersons = (NSArray *)sender;
     }
-    
 }
 
 -(NSArray *) fetchAllData {

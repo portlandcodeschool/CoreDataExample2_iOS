@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14C109" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="LeftArm" representedClassName="LeftArm" syncable="YES">
+        <relationship name="person" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="leftArms" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="Person" representedClassName="Person" syncable="YES">
+        <attribute name="age" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="eyeColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hairColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shoeSIze" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="leftArms" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="LeftArm" inverseName="person" inverseEntity="LeftArm" syncable="YES"/>
+        <relationship name="rightArms" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RightArm" inverseName="person" inverseEntity="RightArm" syncable="YES"/>
+    </entity>
+    <entity name="RightArm" representedClassName="RightArm" syncable="YES">
+        <relationship name="person" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="rightArms" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="LeftArm" positionX="0" positionY="72" width="128" height="60"/>
+        <element name="Person" positionX="-36" positionY="9" width="128" height="148"/>
+        <element name="RightArm" positionX="27" positionY="90" width="128" height="60"/>
+    </elements>
+</model>

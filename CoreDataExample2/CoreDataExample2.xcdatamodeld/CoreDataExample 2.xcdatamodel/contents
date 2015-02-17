@@ -5,13 +5,14 @@
         <attribute name="eyeColor" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="hairColor" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shoeSIze" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <relationship name="leftArms" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="LeftArm" syncable="YES"/>
         <relationship name="rightArms" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RightArm" syncable="YES"/>
     </entity>
     <entity name="RightArm" representedClassName="RightArm" syncable="YES"/>
     <elements>
-        <element name="Person" positionX="-36" positionY="9" width="128" height="118"/>
         <element name="LeftArm" positionX="0" positionY="72" width="128" height="45"/>
+        <element name="Person" positionX="-36" positionY="9" width="128" height="135"/>
         <element name="RightArm" positionX="27" positionY="90" width="128" height="43"/>
     </elements>
 </model>

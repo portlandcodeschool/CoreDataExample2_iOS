@@ -100,6 +100,9 @@
     person.name = self.name.text;
     person.hairColor = self.hairColor.text;
     person.eyeColor = self.eyeColor.text;
+    person.age = @(28);
+    
+    
     
     if (self.ltArms.count > 0) {
         
