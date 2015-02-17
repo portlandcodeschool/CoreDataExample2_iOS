@@ -15,6 +15,12 @@
 		849F10FD1A92736A00C853D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849F10FC1A92736A00C853D4 /* Images.xcassets */; };
 		849F11001A92736A00C853D4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849F10FE1A92736A00C853D4 /* LaunchScreen.xib */; };
 		849F110C1A92736A00C853D4 /* CoreDataExample2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849F110B1A92736A00C853D4 /* CoreDataExample2Tests.m */; };
+		849F11171A92748600C853D4 /* AddRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849F11161A92748600C853D4 /* AddRecordViewController.m */; };
+		849F111A1A92749700C853D4 /* ShowRecordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849F11191A92749700C853D4 /* ShowRecordsViewController.m */; };
+		849F11251A92A25300C853D4 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849F11201A92A25300C853D4 /* SVIndefiniteAnimatedView.m */; };
+		849F11261A92A25300C853D4 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 849F11221A92A25300C853D4 /* SVProgressHUD.bundle */; };
+		849F11271A92A25300C853D4 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 849F11241A92A25300C853D4 /* SVProgressHUD.m */; };
+		849F11291A92A25B00C853D4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849F11281A92A25B00C853D4 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +48,17 @@
 		849F11051A92736A00C853D4 /* CoreDataExample2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataExample2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849F110A1A92736A00C853D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849F110B1A92736A00C853D4 /* CoreDataExample2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataExample2Tests.m; sourceTree = "<group>"; };
+		849F11151A92748600C853D4 /* AddRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRecordViewController.h; sourceTree = "<group>"; };
+		849F11161A92748600C853D4 /* AddRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRecordViewController.m; sourceTree = "<group>"; };
+		849F11181A92749700C853D4 /* ShowRecordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowRecordsViewController.h; sourceTree = "<group>"; };
+		849F11191A92749700C853D4 /* ShowRecordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowRecordsViewController.m; sourceTree = "<group>"; };
+		849F111F1A92A25300C853D4 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		849F11201A92A25300C853D4 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		849F11211A92A25300C853D4 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		849F11221A92A25300C853D4 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		849F11231A92A25300C853D4 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		849F11241A92A25300C853D4 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		849F11281A92A25B00C853D4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849F11291A92A25B00C853D4 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +83,7 @@
 		849F10E01A92736A00C853D4 = {
 			isa = PBXGroup;
 			children = (
+				849F11281A92A25B00C853D4 /* QuartzCore.framework */,
 				849F10EB1A92736A00C853D4 /* CoreDataExample2 */,
 				849F11081A92736A00C853D4 /* CoreDataExample2Tests */,
 				849F10EA1A92736A00C853D4 /* Products */,
@@ -83,6 +102,8 @@
 		849F10EB1A92736A00C853D4 /* CoreDataExample2 */ = {
 			isa = PBXGroup;
 			children = (
+				849F11301A92A49A00C853D4 /* CoreData */,
+				849F111E1A92A25300C853D4 /* SVProgressHUD */,
 				849F10F01A92736A00C853D4 /* AppDelegate.h */,
 				849F10F11A92736A00C853D4 /* AppDelegate.m */,
 				849F10F61A92736A00C853D4 /* ViewController.h */,
@@ -90,8 +111,11 @@
 				849F10F91A92736A00C853D4 /* Main.storyboard */,
 				849F10FC1A92736A00C853D4 /* Images.xcassets */,
 				849F10FE1A92736A00C853D4 /* LaunchScreen.xib */,
-				849F10F31A92736A00C853D4 /* CoreDataExample2.xcdatamodeld */,
 				849F10EC1A92736A00C853D4 /* Supporting Files */,
+				849F11151A92748600C853D4 /* AddRecordViewController.h */,
+				849F11161A92748600C853D4 /* AddRecordViewController.m */,
+				849F11181A92749700C853D4 /* ShowRecordsViewController.h */,
+				849F11191A92749700C853D4 /* ShowRecordsViewController.m */,
 			);
 			path = CoreDataExample2;
 			sourceTree = "<group>";
@@ -120,6 +144,27 @@
 				849F110A1A92736A00C853D4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		849F111E1A92A25300C853D4 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				849F111F1A92A25300C853D4 /* SVIndefiniteAnimatedView.h */,
+				849F11201A92A25300C853D4 /* SVIndefiniteAnimatedView.m */,
+				849F11211A92A25300C853D4 /* SVProgressHUD-Prefix.pch */,
+				849F11221A92A25300C853D4 /* SVProgressHUD.bundle */,
+				849F11231A92A25300C853D4 /* SVProgressHUD.h */,
+				849F11241A92A25300C853D4 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		849F11301A92A49A00C853D4 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				849F10F31A92736A00C853D4 /* CoreDataExample2.xcdatamodeld */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +250,7 @@
 				849F10FB1A92736A00C853D4 /* Main.storyboard in Resources */,
 				849F11001A92736A00C853D4 /* LaunchScreen.xib in Resources */,
 				849F10FD1A92736A00C853D4 /* Images.xcassets in Resources */,
+				849F11261A92A25300C853D4 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,8 +270,12 @@
 			files = (
 				849F10F51A92736A00C853D4 /* CoreDataExample2.xcdatamodeld in Sources */,
 				849F10F21A92736A00C853D4 /* AppDelegate.m in Sources */,
+				849F11251A92A25300C853D4 /* SVIndefiniteAnimatedView.m in Sources */,
+				849F111A1A92749700C853D4 /* ShowRecordsViewController.m in Sources */,
+				849F11271A92A25300C853D4 /* SVProgressHUD.m in Sources */,
 				849F10F81A92736A00C853D4 /* ViewController.m in Sources */,
 				849F10EF1A92736A00C853D4 /* main.m in Sources */,
+				849F11171A92748600C853D4 /* AddRecordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +466,7 @@
 				849F11111A92736A00C853D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		849F11121A92736A00C853D4 /* Build configuration list for PBXNativeTarget "CoreDataExample2Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +475,7 @@
 				849F11141A92736A00C853D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
